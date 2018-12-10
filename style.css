@@ -1,0 +1,62 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#fs {
+  width: 100%;
+  height: 100%;
+}
+
+#menu-icon, #dropdown {
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+
+#menu-icon:hover {
+  transform: rotate(90deg);
+}
+
+#dropdown {
+  opacity: 0;
+  width: 100%;
+  height: 10%;
+  top: 66px;
+}
+
+#menu-icon:hover + #dropdown {
+  opacity: 1;
+}
+
+#subtitle {
+  font: 1em "Lato", sans-serif;
+  color: #111;
+  background-color: #fff;
+  text-align: center;
+  top: 15%;
+}
+
+#title {
+  font: 2.8em "Lato", sans-serif;
+  color: #111;
+  background-color: #fff;
+  text-align: center;
+  width: 30%;
+  top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: #111;
+}
+
+#the-stuff {
+  width: 10%;
+  height: 100%;
+  display: block;
+  background-color:
+}
